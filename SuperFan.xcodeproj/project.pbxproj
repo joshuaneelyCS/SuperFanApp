@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		232AAE6C79B24D0B4269F600 /* Pods_SuperFan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 782310225D73D57010DBC834 /* Pods_SuperFan.framework */; };
+		2460BF0D23730F7E0046BC98 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2460BF0C23730F7E0046BC98 /* HomeScreen.swift */; };
+		247269212381F32A007FB83C /* WalkThrough.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247269202381F32A007FB83C /* WalkThrough.swift */; };
+		247269252381F59B007FB83C /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247269242381F59B007FB83C /* PageViewController.swift */; };
+		247269272381F838007FB83C /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 247269262381F838007FB83C /* Onboarding.storyboard */; };
+		247269292381FB82007FB83C /* WalkthroughViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247269282381FB82007FB83C /* WalkthroughViewController.swift */; };
+		2472692B2382255E007FB83C /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 2472692A2382255E007FB83C /* Podfile */; };
+		24C596932371E6E000FB3465 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C596922371E6E000FB3465 /* AppDelegate.swift */; };
+		24C596952371E6E000FB3465 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C596942371E6E000FB3465 /* SceneDelegate.swift */; };
+		24C596972371E6E000FB3465 /* Start.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C596962371E6E000FB3465 /* Start.swift */; };
+		24C5969A2371E6E000FB3465 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24C596982371E6E000FB3465 /* Main.storyboard */; };
+		24C5969C2371E6E100FB3465 /* 1.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24C5969B2371E6E100FB3465 /* 1.xcassets */; };
+		24C5969F2371E6E100FB3465 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24C5969D2371E6E100FB3465 /* LaunchScreen.storyboard */; };
+		24D30D6F237784D300F9EDEA /* SchoolSponsoredBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D30D6E237784D300F9EDEA /* SchoolSponsoredBadge.swift */; };
+		24D30D712377DA3700F9EDEA /* ClubBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D30D702377DA3700F9EDEA /* ClubBadge.swift */; };
+		24D30D732377DACC00F9EDEA /* WomensBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D30D722377DACC00F9EDEA /* WomensBadge.swift */; };
+		24D30D752377DB2500F9EDEA /* MensBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D30D742377DB2400F9EDEA /* MensBadge.swift */; };
+		24D30D772377DB6A00F9EDEA /* MusicBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D30D762377DB6A00F9EDEA /* MusicBadge.swift */; };
+		24D30D792377DBD800F9EDEA /* ArtBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D30D782377DBD800F9EDEA /* ArtBadge.swift */; };
+		24D30D7B2377E56000F9EDEA /* SuperFanBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D30D7A2377E56000F9EDEA /* SuperFanBadge.swift */; };
+		24FA3CD723790295007A75BB /* Warning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FA3CD623790295007A75BB /* Warning.swift */; };
+		24FA3CD9237A2371007A75BB /* QRCodeScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FA3CD8237A2371007A75BB /* QRCodeScanner.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2460BF0C23730F7E0046BC98 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		247269202381F32A007FB83C /* WalkThrough.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkThrough.swift; sourceTree = "<group>"; };
+		247269242381F59B007FB83C /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		247269262381F838007FB83C /* Onboarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
+		247269282381FB82007FB83C /* WalkthroughViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughViewController.swift; sourceTree = "<group>"; };
+		2472692A2382255E007FB83C /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		24C5968F2371E6E000FB3465 /* SuperFan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperFan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24C596922371E6E000FB3465 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		24C596942371E6E000FB3465 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		24C596962371E6E000FB3465 /* Start.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Start.swift; sourceTree = "<group>"; };
+		24C596992371E6E000FB3465 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		24C5969B2371E6E100FB3465 /* 1.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = 1.xcassets; sourceTree = "<group>"; };
+		24C5969E2371E6E100FB3465 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		24C596A02371E6E100FB3465 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24D30D6E237784D300F9EDEA /* SchoolSponsoredBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolSponsoredBadge.swift; sourceTree = "<group>"; };
+		24D30D702377DA3700F9EDEA /* ClubBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubBadge.swift; sourceTree = "<group>"; };
+		24D30D722377DACC00F9EDEA /* WomensBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WomensBadge.swift; sourceTree = "<group>"; };
+		24D30D742377DB2400F9EDEA /* MensBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MensBadge.swift; sourceTree = "<group>"; };
+		24D30D762377DB6A00F9EDEA /* MusicBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicBadge.swift; sourceTree = "<group>"; };
+		24D30D782377DBD800F9EDEA /* ArtBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtBadge.swift; sourceTree = "<group>"; };
+		24D30D7A2377E56000F9EDEA /* SuperFanBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperFanBadge.swift; sourceTree = "<group>"; };
+		24FA3CD623790295007A75BB /* Warning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Warning.swift; sourceTree = "<group>"; };
+		24FA3CD8237A2371007A75BB /* QRCodeScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeScanner.swift; sourceTree = "<group>"; };
+		3C9DE36AC3E90660B0572AB8 /* Pods-SuperFan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperFan.release.xcconfig"; path = "Target Support Files/Pods-SuperFan/Pods-SuperFan.release.xcconfig"; sourceTree = "<group>"; };
+		782310225D73D57010DBC834 /* Pods_SuperFan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SuperFan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6126A495510BF6D35805605 /* Pods-SuperFan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperFan.debug.xcconfig"; path = "Target Support Files/Pods-SuperFan/Pods-SuperFan.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24C5968C2371E6E000FB3465 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				232AAE6C79B24D0B4269F600 /* Pods_SuperFan.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24C596862371E6E000FB3465 = {
+			isa = PBXGroup;
+			children = (
+				2472692A2382255E007FB83C /* Podfile */,
+				24C596912371E6E000FB3465 /* SuperFan */,
+				24C596902371E6E000FB3465 /* Products */,
+				60B1492B3ABAF815340DA4A0 /* Pods */,
+				441B2AE306B02741F2C8A0D6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		24C596902371E6E000FB3465 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24C5968F2371E6E000FB3465 /* SuperFan.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24C596912371E6E000FB3465 /* SuperFan */ = {
+			isa = PBXGroup;
+			children = (
+				24C596922371E6E000FB3465 /* AppDelegate.swift */,
+				24C596942371E6E000FB3465 /* SceneDelegate.swift */,
+				24C596962371E6E000FB3465 /* Start.swift */,
+				2460BF0C23730F7E0046BC98 /* HomeScreen.swift */,
+				24D30D6E237784D300F9EDEA /* SchoolSponsoredBadge.swift */,
+				24D30D702377DA3700F9EDEA /* ClubBadge.swift */,
+				24D30D722377DACC00F9EDEA /* WomensBadge.swift */,
+				24D30D742377DB2400F9EDEA /* MensBadge.swift */,
+				24D30D762377DB6A00F9EDEA /* MusicBadge.swift */,
+				24D30D782377DBD800F9EDEA /* ArtBadge.swift */,
+				24D30D7A2377E56000F9EDEA /* SuperFanBadge.swift */,
+				24FA3CD623790295007A75BB /* Warning.swift */,
+				24FA3CD8237A2371007A75BB /* QRCodeScanner.swift */,
+				247269262381F838007FB83C /* Onboarding.storyboard */,
+				24C596982371E6E000FB3465 /* Main.storyboard */,
+				24C5969B2371E6E100FB3465 /* 1.xcassets */,
+				24C5969D2371E6E100FB3465 /* LaunchScreen.storyboard */,
+				24C596A02371E6E100FB3465 /* Info.plist */,
+				247269202381F32A007FB83C /* WalkThrough.swift */,
+				247269242381F59B007FB83C /* PageViewController.swift */,
+				247269282381FB82007FB83C /* WalkthroughViewController.swift */,
+			);
+			path = SuperFan;
+			sourceTree = "<group>";
+		};
+		441B2AE306B02741F2C8A0D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				782310225D73D57010DBC834 /* Pods_SuperFan.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		60B1492B3ABAF815340DA4A0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E6126A495510BF6D35805605 /* Pods-SuperFan.debug.xcconfig */,
+				3C9DE36AC3E90660B0572AB8 /* Pods-SuperFan.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24C5968E2371E6E000FB3465 /* SuperFan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24C596A32371E6E100FB3465 /* Build configuration list for PBXNativeTarget "SuperFan" */;
+			buildPhases = (
+				BBAF20E3541C237F9BE69D85 /* [CP] Check Pods Manifest.lock */,
+				24C5968B2371E6E000FB3465 /* Sources */,
+				24C5968C2371E6E000FB3465 /* Frameworks */,
+				24C5968D2371E6E000FB3465 /* Resources */,
+				A1A53E81CC308524BF4C85A3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuperFan;
+			productName = SuperFan;
+			productReference = 24C5968F2371E6E000FB3465 /* SuperFan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24C596872371E6E000FB3465 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Joshua Neely";
+				TargetAttributes = {
+					24C5968E2371E6E000FB3465 = {
+						CreatedOnToolsVersion = 11.2;
+					};
+				};
+			};
+			buildConfigurationList = 24C5968A2371E6E000FB3465 /* Build configuration list for PBXProject "SuperFan" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24C596862371E6E000FB3465;
+			productRefGroup = 24C596902371E6E000FB3465 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24C5968E2371E6E000FB3465 /* SuperFan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24C5968D2371E6E000FB3465 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2472692B2382255E007FB83C /* Podfile in Resources */,
+				24C5969F2371E6E100FB3465 /* LaunchScreen.storyboard in Resources */,
+				24C5969C2371E6E100FB3465 /* 1.xcassets in Resources */,
+				24C5969A2371E6E000FB3465 /* Main.storyboard in Resources */,
+				247269272381F838007FB83C /* Onboarding.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A1A53E81CC308524BF4C85A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SuperFan/Pods-SuperFan-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SuperFan/Pods-SuperFan-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SuperFan/Pods-SuperFan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBAF20E3541C237F9BE69D85 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SuperFan-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24C5968B2371E6E000FB3465 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24D30D772377DB6A00F9EDEA /* MusicBadge.swift in Sources */,
+				24FA3CD723790295007A75BB /* Warning.swift in Sources */,
+				24D30D752377DB2500F9EDEA /* MensBadge.swift in Sources */,
+				2460BF0D23730F7E0046BC98 /* HomeScreen.swift in Sources */,
+				24C596972371E6E000FB3465 /* Start.swift in Sources */,
+				24D30D732377DACC00F9EDEA /* WomensBadge.swift in Sources */,
+				247269252381F59B007FB83C /* PageViewController.swift in Sources */,
+				24D30D6F237784D300F9EDEA /* SchoolSponsoredBadge.swift in Sources */,
+				24C596932371E6E000FB3465 /* AppDelegate.swift in Sources */,
+				247269292381FB82007FB83C /* WalkthroughViewController.swift in Sources */,
+				24C596952371E6E000FB3465 /* SceneDelegate.swift in Sources */,
+				24D30D712377DA3700F9EDEA /* ClubBadge.swift in Sources */,
+				247269212381F32A007FB83C /* WalkThrough.swift in Sources */,
+				24FA3CD9237A2371007A75BB /* QRCodeScanner.swift in Sources */,
+				24D30D792377DBD800F9EDEA /* ArtBadge.swift in Sources */,
+				24D30D7B2377E56000F9EDEA /* SuperFanBadge.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		24C596982371E6E000FB3465 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24C596992371E6E000FB3465 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		24C5969D2371E6E100FB3465 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24C5969E2371E6E100FB3465 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24C596A12371E6E100FB3465 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		24C596A22371E6E100FB3465 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24C596A42371E6E100FB3465 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6126A495510BF6D35805605 /* Pods-SuperFan.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CAM8XG27L4;
+				INFOPLIST_FILE = SuperFan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = comJoshua.SuperFan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		24C596A52371E6E100FB3465 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C9DE36AC3E90660B0572AB8 /* Pods-SuperFan.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CAM8XG27L4;
+				INFOPLIST_FILE = SuperFan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = comJoshua.SuperFan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24C5968A2371E6E000FB3465 /* Build configuration list for PBXProject "SuperFan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24C596A12371E6E100FB3465 /* Debug */,
+				24C596A22371E6E100FB3465 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24C596A32371E6E100FB3465 /* Build configuration list for PBXNativeTarget "SuperFan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24C596A42371E6E100FB3465 /* Debug */,
+				24C596A52371E6E100FB3465 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24C596872371E6E000FB3465 /* Project object */;
+}
